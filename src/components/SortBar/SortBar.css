@@ -1,0 +1,30 @@
+.sort-bar {
+  width: 152px;
+  background-color: #bdbdbd;
+  min-height: 1028px;
+}
+.sort-bar__title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  padding-top: 35.17px;
+  margin: 0 62.83px 10.05px 20.27px;
+}
+.sort-bar__button {
+  background: #4b51ef;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  border: none;
+  height: 24.12px;
+  width: 86.13px;
+  margin: 0 45.6px 0 20.27px;
+}
+.sort-bar__button:nth-child(3) {
+  margin-top: 10.05px;
+  width: 105.39px;
+}

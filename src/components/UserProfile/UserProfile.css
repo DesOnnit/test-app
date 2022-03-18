@@ -1,0 +1,64 @@
+.user-profile__header {
+  display: flex;
+  justify-content: space-between;
+  margin: 13px 45px 11px 36px;
+  align-items: center;
+}
+.user-profile__header__title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+.user-profile__header__button {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  background: #4b51ef;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  width: 117px;
+  height: 27px;
+}
+.user-profile__info {
+  border: 1px solid #f3f3f3;
+  border-radius: 8px;
+  width: 438px;
+  height: 463px;
+  margin: 0 41px 10px 36px;
+}
+.user-profile__info__data {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 6px 19px 12px;
+}
+.user-profile__button {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  width: 85px;
+  height: 24px;
+  text-align: center;
+  align-self: end;
+  margin: 0 41px 0 0;
+  background: #afafaf;
+}
+.user-profile__button_active {
+  background: #52cf4f;
+}
+.user-profile {
+  display: flex;
+  flex-direction: column;
+}

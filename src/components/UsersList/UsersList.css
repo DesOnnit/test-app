@@ -1,0 +1,25 @@
+.users-list {
+  background: #ffffff;
+}
+.users-list__list__container_hide {
+  display: none;
+}
+.users-list__title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin: 19px 0 0 34px;
+}
+.users-list__find {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  margin: 0 59px 25px 300px;
+  text-align: end;
+}

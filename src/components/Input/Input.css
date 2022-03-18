@@ -1,0 +1,55 @@
+.input__label {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 9px;
+  color: #000000;
+  height: 35px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.input__label_comment {
+  height: 67px;
+}
+.input__data {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: rgba(0, 0, 0, 0.3);
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+  width: 211px;
+  height: 23px;
+  margin-top: 3px;
+  padding: 5px 0 5px 10px;
+}
+.input__data_comment {
+  width: 408px;
+  height: 55px;
+}
+.input__data_edit {
+  color: #000000;
+}
+.input__error {
+  font-family: "Robot", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 12px;
+  color: red;
+  margin: 0;
+  width: 210px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+  top: 35px;
+}
+.input__error_hide {
+  display: none;
+}

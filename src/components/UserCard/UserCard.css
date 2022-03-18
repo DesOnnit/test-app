@@ -1,0 +1,56 @@
+.user-card__container {
+  background: #f3f3f3;
+  border-radius: 8px;
+  width: 420px;
+  height: 73px;
+  padding: 10px;
+  margin: 20px 62px 20px 34px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.user-card__container:nth-child(1) {
+  margin-top: 15px;
+}
+.user-card__container:last-child {
+  margin-bottom: 10px;
+}
+.user-card__container__info {
+  display: flex;
+  height: 14px;
+  align-items: center;
+}
+.user-card__container__info__subtitle {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: #a3a3a3;
+  margin: 0 7px 0 0;
+}
+.user-card__container__info__title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+  margin: 0;
+}
+.user-card__container__button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.user-card__container__button {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #4b51ef;
+  border: none;
+  cursor: pointer;
+}
